@@ -1,0 +1,44 @@
+.navbar {
+    padding: 20px 20px 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    .ul_links {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: baseline;
+        &-link {
+            list-style: none;
+            &-l {
+                padding: 0 15px;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+//* MAIN SECTION
+.main {
+    height: 85vh;
+    background-color: #023047;
+    &_title {
+        text-align: center;
+        padding: 10px 0;
+        &-h1 {
+            color: #fff;
+            letter-spacing: 10px;
+        }
+    }
+    .hero {
+        background-color: #fff;
+        height: 200px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .box {
+            text-align: center;
+        }
+    }
+}

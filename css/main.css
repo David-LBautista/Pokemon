@@ -1,0 +1,45 @@
+.navbar {
+  padding: 20px 20px 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.navbar .ul_links {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: baseline;
+}
+.navbar .ul_links-link {
+  list-style: none;
+}
+.navbar .ul_links-link-l {
+  padding: 0 15px;
+  text-decoration: none;
+}
+
+.main {
+  height: 85vh;
+  background-color: #023047;
+}
+.main_title {
+  text-align: center;
+  padding: 10px 0;
+}
+.main_title-h1 {
+  color: #fff;
+  letter-spacing: 10px;
+}
+.main .hero {
+  background-color: #fff;
+  height: 200px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .hero .box {
+  text-align: center;
+}
+
+/*# sourceMappingURL=main.css.map */
